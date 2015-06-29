@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Proteus.Domain.Foundation.IdentityPersistenceBase&lt;TObject, TIdentity&gt;" Collapsed="true">
+    <Position X="1" Y="0.75" Width="3.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Proteus.Domain.Foundation.ValueObjectBase&lt;TObject&gt;" Collapsed="true">
+    <Position X="0.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sample.Infrastructure.Customers" Collapsed="true">
+    <Position X="3.5" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAQAAAgAAACAAAAAAAAAAkAAAAAA=</HashCode>
+      <FileName>Customers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sample.Infrastructure.GroundShipper" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GroundShipper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sample.Infrastructure.AirFreightShipper" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AirFreightShipper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sample.Domain.CanAddOrderRule" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sample.Domain.CustomerAddressChangeRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sample.Domain.Customer" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sample.Domain.Order" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sample.Domain.CustomerNameChangeRule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sample.Domain.OutstandingOrderRule" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sample.Domain.Address" Collapsed="true">
+    <Position X="1" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sample.Domain.Destination" Collapsed="true">
+    <Position X="1" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sample.Infrastructure.AccountingSystemCustomerCreditChecker" Collapsed="true">
+    <Position X="6.25" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>AccountingSystemCustomerCreditChecker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Sample.Domain.ICustomerRepository">
+    <Position X="3.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="Sample.Domain.ShippingResult" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sample.Domain.OrderStatus" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
