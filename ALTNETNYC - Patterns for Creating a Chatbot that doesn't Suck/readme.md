@@ -9,7 +9,7 @@ Following are the requirements (and necessary steps) to run this sample.
 
 ## II. Azure / Cognitive Service Dependencies
 
-Each of the Cognitive Services dependencies requires a [Microsoft Azure account](https://azure.microsoft.com/en-us/free/) into which the services must be provisioned.  However, all of these services are available in a "free tier" that provides sufficient 
+Each of the Cognitive Services dependencies requires a [Microsoft Azure account](https://azure.microsoft.com/en-us/free/) into which the services must be provisioned.  However, _all_ of these services upon which the bot depends are available in a "free tier" that provides sufficient throughput at the cost-free level to easily run this sample (meaning that this sample _can_ be run on Azure at no cost to you).
 
 ### Language Understanding Intelligence Service (LUIS)
 1. Access [the LUIS portal](http://luis.ai) to login and create a new LUIS application instance.  The `LUIS_app_definition.json` file in the `/code/` folder is an exported LUIS application definition.  For convenience, this can be imported into the LUIS portal to quickly (re)create the NLP model that was demonstrated in the talk.
